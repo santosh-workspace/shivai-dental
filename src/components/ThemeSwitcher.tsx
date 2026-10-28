@@ -64,7 +64,7 @@ const themeList = [
 ];
 
 export default function ThemeSwitcher() {
-  const [active, setActive] = useState("blue");
+  const [active, setActive] = useState("orange");
   const [open, setOpen] = useState(false);
 
   const apply = (id: string) => {
@@ -78,7 +78,7 @@ export default function ThemeSwitcher() {
   };
 
   useEffect(() => {
-    const saved = localStorage.getItem("theme") || "blue";
+    const saved = localStorage.getItem("theme") || "orange";
     apply(saved);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

@@ -35,11 +35,11 @@
   --bg-card: #ffffff;
   --fg: #1a2340;
   --fg-muted: #4a5568;
-  --accent: #0066cc;
-  --accent-hover: #0052a3;
-  --accent-deep: #004080;
-  --border: rgba(0, 102, 204, 0.12);
-  --border-strong: rgba(0, 102, 204, 0.3);
+  --accent: #ea580c;
+  --accent-hover: #c2410c;
+  --accent-deep: #9a3412;
+  --border: rgba(234, 88, 12, 0.12);
+  --border-strong: rgba(234, 88, 12, 0.3);
 
   --font-serif: var(--font-onest), "Helvetica Neue", Arial, sans-serif;
   --font-sans: var(--font-onest), "Helvetica Neue", Arial, sans-serif;
@@ -317,8 +317,8 @@ p { color: var(--fg-muted); max-width: 65ch; }
 .hero__grid {
   position: absolute; inset: 0;
   background-image:
-    linear-gradient(rgba(0, 102, 204, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 102, 204, 0.05) 1px, transparent 1px);
+    linear-gradient(rgba(234, 88, 12, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(234, 88, 12, 0.05) 1px, transparent 1px);
   background-size: 80px 80px;
   mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
   -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
