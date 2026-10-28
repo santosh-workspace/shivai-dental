@@ -106,7 +106,7 @@ export default function Home() {
       {/* CTA Contact Box */}
       <section style={{ background: "var(--bg-elev)", padding: "var(--space-12) 0" }}>
         <div className="container">
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "var(--space-6)" }}>
+          <div className="grid grid-3">
             {[
               { icon: "📞", title: "Need Dental Services?", desc: "Call on : +91 83290 08701" },
               { icon: "🕐", title: "Opening Hours", desc: "Mon–Sat 10:00 AM – 9:00 PM" },
@@ -125,7 +125,7 @@ export default function Home() {
                     boxShadow: "var(--shadow-sm)",
                   }}
                 >
-                  <div style={{ fontSize: "2rem" }}>{c.icon}</div>
+                  <div style={{ fontSize: "2rem", flexShrink: 0 }}>{c.icon}</div>
                   <div>
                     <h3 style={{ fontSize: "1.125rem", marginBottom: "var(--space-1)" }}>{c.title}</h3>
                     <p style={{ fontSize: "0.9375rem", margin: 0 }}>{c.desc}</p>
